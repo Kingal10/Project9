@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Lalezar&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: Edu SA Beginner;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+  transition: all 0.4s ease-in;
+  
+}
+.nav ul{
+  margin: 0;
+}
+.nav li{
+  display: inline;
+}
+.nav a{
+  display: inline-block;
+  padding: .5em;
+  color: skyblue;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  transition: 0.5s;
+  transform: translateY(-10px);
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid red;
+}
+.main-nav li {
+  padding: 0 5%;
+}
+.main-header {
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/03/09/03/universe-1566159_1280.jpg");
+  background-size: cover;
+  padding-bottom: 30px;  
+}
+.mpw {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  color: skyblue;
+}
+.myname{
+  color: red;
+}
+.me{
+  border-style: double;
+}
+.me, .myname {
+  float: right;
+  
+}
+ .content {
+  margin: 1em;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.sec {
+  font-family: Lalezar;
+  font-weight: normal;
+  text-align: center;
+}
+.mepic{
+  float: right;
+  border: solid;
+  border-margin: 1em;    
+}
+figcaption{
+  font-family: Lalezar;
+  text-align: center;
+}
+.main-foot{
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/03/09/03/universe-1566159_1280.jpg");
+  background-size: cover;  
+  padding: .25em 0;
+  align: center;
+  color: skyblue;
+  
+}
+}
+.in-la {
+  text-align: center;
+  font-family: Lalezar;
+} 
+footer .socials {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  footer .socials li {
+    list-style: none;
+  }
+  
+  footer .socials li a {
+    font-size: 2em;
+    color: skyblue;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  
+  footer .socials li a:hover {
+    transform: translateY(-10px);
+  }
+  ion-icon {
+    color: skyblue;
+    font-size: 1.3em;
+    color: skyblue;
+    cursor: pointer;
+  }
+  .dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+    transition: all 0.4s ease-in;
+  }
+
+  .dark-mode-button :hover {
+    transition: 0.5s;
+    transform: translateY(-10px);
+  }
+
+  
