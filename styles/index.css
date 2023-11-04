@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+SA+Beginner&family=Lalezar&family=Roboto:wght@100&family=Source+Code+Pro:wght@700&display=swap');
 *{
   box-sizing: border-box;
   font-family: Edu SA Beginner;
@@ -11,30 +12,30 @@ html, body{
   transition: all 0.4s ease-in;
   
 }
-.nav ul{
+.navi ul{
   margin: 0;
 }
-.nav li{
+.navi li{
   display: inline;
 }
-.nav a{
+.navi a{
   display: inline-block;
   padding: .5em;
   color: skyblue;
   text-decoration: none;
 }
 
-.nav a:hover {
+.navi a:hover {
   transition: 0.5s;
   transform: translateY(-10px);
 }
-.main-nav {
+.main-navi {
   text-align: center;
   font-size: 1.1em;
   font-weight: lighter;
   border-bottom: 1px solid red;
 }
-.main-nav li {
+.main-navi li {
   padding: 0 5%;
 }
 .main-header {
@@ -86,7 +87,7 @@ figcaption{
   color: skyblue;
   
 }
-}
+
 .in-la {
   text-align: center;
   font-family: Lalezar;
@@ -131,4 +132,31 @@ footer .socials {
     transform: translateY(-10px);
   }
 
-  
+  .grad {
+    text-align: center;
+    padding: 70px;
+    
+  }
+
+  .count {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .day,.hour,.minute,.second {
+    font-size: 3rem;
+    font-family: bebas neue;
+  }
+
+  .card-title {
+    text-align: center;
+    
+  }
+
+  .btn{
+    align-items:  center;
+  }
+  .grad-text {
+    font-family: bebas neue;
+    font-size: 4rem;
+  }
